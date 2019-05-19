@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DapperSample.Service;
+using System;
 
 namespace DapperSample
 {
@@ -6,7 +7,7 @@ namespace DapperSample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SampleService.Instance.Execute();
         }
     }
 }
