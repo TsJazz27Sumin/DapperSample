@@ -12,7 +12,6 @@ namespace DapperSample.Service
 
         public void Execute()
         {
-
             //新規登録
             SampleDapper.Insert("0001", "k.jarrett", 73, "music");
             SampleDapper.Insert("0002", "c.corea", 77, "music");
